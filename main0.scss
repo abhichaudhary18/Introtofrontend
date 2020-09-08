@@ -1,0 +1,37 @@
+// scss variable
+$color: red;
+$color1: white;
+
+ul{
+  color: $color;
+}
+
+
+.btn-primary{
+  background: $color1;
+  margin-right: 25px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 40px;
+  position: relative;
+  top: 2px;
+}
+// scss inheritance used for button
+.btn-light{
+  @extend .btn-primary;
+  font-size: 50px;
+  border-radius: 20px;
+  white-space:nowrap;
+}
+
+// scss nesting
+
+ul{
+  img{
+    border: solid black;
+  }
+  h4{
+    color: red;
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,24 @@
+ul {
+  color: red; }
+
+.btn-primary, .btn-light {
+  background: white;
+  margin-right: 25px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 40px;
+  position: relative;
+  top: 2px; }
+
+.btn-light {
+  font-size: 50px;
+  border-radius: 20px;
+  white-space: nowrap; }
+
+ul img {
+  border: solid black; }
+ul h4 {
+  color: red;
+  font-weight: bold; }
+
+/*# sourceMappingURL=main0.css.map */
